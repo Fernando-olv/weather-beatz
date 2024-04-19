@@ -3,3 +3,6 @@ env:
 
 run:
 	flask --app server.py --debug run
+
+lint:
+	pre-commit run --all-files
